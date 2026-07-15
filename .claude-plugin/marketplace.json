@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "kariops",
+  "description": "Kariops plugins for Claude Code. AI-ops tooling for founders and operators.",
+  "owner": {
+    "name": "Kari Doherty",
+    "email": "kari@kariops.com"
+  },
+  "plugins": [
+    {
+      "name": "kariops-pulse",
+      "displayName": "Kariops Pulse",
+      "source": "./",
+      "description": "Track how your brand shows up in AI search across Claude, ChatGPT, Perplexity, and Gemini, and draft page-copy fixes for the gaps.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kari Doherty",
+        "email": "kari@kariops.com"
+      },
+      "homepage": "https://pulse.kariops.com",
+      "repository": "https://github.com/dohertykariann-code/kariops-pulse-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["mcp", "geo", "ai-search", "citation-tracking", "brand-visibility"],
+      "category": "integration",
+      "tags": ["mcp", "remote-server", "byok"],
+      "defaultEnabled": false,
+      "strict": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "kariops-pulse",
+  "displayName": "Kariops Pulse",
+  "version": "1.0.0",
+  "description": "Track how your brand shows up in AI search across Claude, ChatGPT, Perplexity, and Gemini, and draft page-copy fixes for the gaps. Connects to the kariops pulse remote MCP server. Bring your own engine API keys.",
+  "author": {
+    "name": "Kari Doherty",
+    "email": "kari@kariops.com",
+    "url": "https://github.com/dohertykariann-code"
+  },
+  "homepage": "https://pulse.kariops.com",
+  "repository": "https://github.com/dohertykariann-code/kariops-pulse-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["mcp", "geo", "ai-search", "citation-tracking", "brand-visibility", "seo"],
+  "defaultEnabled": false,
+  "commands": "./commands/",
+  "mcpServers": "./.mcp.json"
+}
