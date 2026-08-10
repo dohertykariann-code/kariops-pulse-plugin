@@ -35,6 +35,16 @@ Kariops pulse is BYOK. You add your own engine API keys at https://pulse.kariops
 
 Four: Claude, ChatGPT, Perplexity, and Gemini.
 
+## Why the scan asks buyer questions, not brand searches
+
+Nobody searches for your brand by name when they are shopping. If someone needs a caterer, they search for the best caterers with gluten-free options in their area. If they need accounting software, they search for something that works with their payroll system.
+
+The scans are designed to simulate that. Buyer-context questions, the kind a real person types when they are actually trying to solve a problem, surface very different results than generic category queries. A brand can be invisible under "best CRM tools" and rank first under "CRM for teams that handle confidential client records."
+
+Absence under a well-formed buyer question is the signal worth tracking. That is the gap that costs you business.
+
+All four engines run with live search enabled, not model memory.
+
 ## Links
 
 - Product: https://pulse.kariops.com
