@@ -12,6 +12,8 @@
   "homepage": "https://pulse.kariops.com",
   "repository": "https://github.com/dohertykariann-code/kariops-pulse-plugin",
   "license": "Apache-2.0",
+  "icon": "./.claude-plugin/assets/icon.png",
+  "privacyPolicyUrl": "https://pulse.kariops.com/privacy",
   "keywords": ["mcp", "geo", "ai-search", "citation-tracking", "brand-visibility", "seo"],
   "defaultEnabled": false,
   "commands": "./commands/",
